@@ -5,7 +5,7 @@
 pyaa is a 
 
 * Keyboard Maintainer: [konomu](https://github.com/konomu)
-* Hardware Supported: Pro Micro and variants (Elite C, nice!nano, etc.)
+* Hardware Supported: Pro Micro and variants
 * Hardware Availability: *Links to where you can find this hardware*
 
 Make example for this keyboard (after setting up your build environment):
