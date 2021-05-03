@@ -18,6 +18,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "config_common.h"
 
+#define FORCE_NKRO
+#define NO_ACTION_FUNCTION
+#define NO_ACTION_ONESHOT
+#define NO_ACTION_MACRO
+#define IGNORE_MOD_TAP_INTERRUPT
+
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x6060
@@ -64,6 +70,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SOFT_SERIAL_PIN D1
 
 #define MASTER_LEFT
-
-#define COMBO_VARIABLE_LEN
-#define COMBO_TERM 50

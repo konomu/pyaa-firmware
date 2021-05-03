@@ -16,6 +16,9 @@
 
 #pragma once
 #include "quantum.h"
+#include <util/delay.h>
+#include <stdint.h>
+#include <stdbool.h>
 
 /* This is a shortcut to help you visually see your layout.
  *
